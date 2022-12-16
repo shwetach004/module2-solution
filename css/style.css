@@ -1,0 +1,46 @@
+/*Css reset*/
+
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* secondary section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rgb(191, 174, 166);
+    padding: 18px;
+    margin: -14px;
+    border-radius: 3px;
+    background-color:#f0eff559;
+    margin-bottom: 12px;
+margin-left: 10px;
+margin-right: 12px;
+}
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: small;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}

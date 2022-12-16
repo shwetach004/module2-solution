@@ -1,0 +1,12 @@
+/* Services section */
+#services{
+    flex-direction: column;
+    
+}
+
+#services .box{
+    margin-bottom:20px;
+}
+#services .box img{
+    height:104px;
+}
